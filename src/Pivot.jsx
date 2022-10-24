@@ -29,7 +29,7 @@ function Pivot() {
       .then((res) => res.json())
       .then((res) => {
         // setS2DataConfig(res);
-        handleData(res);
+        // handleData(res);
         console.log(res)
         ReactDOM.render(<SheetComponent
           dataCfg={res}
