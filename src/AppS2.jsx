@@ -112772,6 +112772,9 @@ function Pivot() {
   const s2Options = {
     width: 500,
     height: 300,
+    style: {
+        colCfg: { hideMeasureColumn: true },
+    },
   };
 
   // useEffect(() => {
